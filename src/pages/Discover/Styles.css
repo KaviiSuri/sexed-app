@@ -1,0 +1,49 @@
+.discover-container {
+  width: 375px;
+}
+
+body {
+  background: linear-gradient(180deg, #EAE8FF 0%, #FFEEEC 100%);
+}
+
+.discover-container .header-content {
+  width: 100%;
+  color: white;
+  position: relative;
+  display: inline-block;
+}
+
+.discover-container .header-content .text {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-left: 10px;
+}
+
+.discover-container .header-content {
+  margin: 0 10px;
+  width: 100vw;
+}
+
+.discover-container .header-content img {
+  width: calc(100% - 20px)
+}
+
+.discover-container h1 {
+  padding-left: 10px;
+  font-size: 32px;
+}
+
+.discover-container h2 {
+  padding-left: 10px;
+}
+
+.discover-container .text h3 {
+  margin-bottom: 10px;
+}
+
+.discover-container .header-content .text span {
+  color: #E5E5E5;
+}
