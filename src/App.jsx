@@ -6,7 +6,7 @@ import Login from './pages/Login/Login'
 import Signup from './pages/signup/signup'
 import './App.css'
 
-function App() {
+const App = () => {
 	return (
 		<Router>
 			<Switch>

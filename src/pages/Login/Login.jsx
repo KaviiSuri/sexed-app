@@ -13,8 +13,18 @@ const Login = () => {
 				<h1 className='login-heading'>
 					Welcome back to <span style={{ color: '#FF5065' }}>Sex.in</span>
 				</h1>
-				<input type='email' name='Email' placeholder='Email Address' />
-				<input type='password' name='Email' placeholder='Password' />
+				<input
+					type='email'
+					name='Email'
+					placeholder='Email Address'
+					className='login-input'
+				/>
+				<input
+					type='password'
+					name='Email'
+					placeholder='Password'
+					className='login-input'
+				/>
 				<Link>
 					<p className='forgot-password'>Forgot Password?</p>
 				</Link>
