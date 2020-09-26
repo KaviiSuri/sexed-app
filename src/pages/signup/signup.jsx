@@ -89,7 +89,7 @@ const Signup = () => {
 			</div>
 			<div className='signup-content'>
 				{part === 3 ? (
-					<Link to='/'>
+					<Link to='/discover'>
 						<button className='sign-up-button'>CONTINUE</button>
 					</Link>
 				) : (
