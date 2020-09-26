@@ -4,7 +4,13 @@ import './Styles.css'
 
 import continueWatchingImg from '../../assets/continue-watching.png'
 import sexualHygieneImg from "../../assets/sexual-hygiene.png"
-import CategoryCard from '../../Category-Card/CategoryCard'
+import nonBinary from '../../assets/non-binary.png'
+import profileImg from "../../assets/profile-img.png"
+
+import CategoryCard from '../../components/Category-Card/CategoryCard'
+import ArticleCard from '../../components/ArticleCard/ArticleCard'
+import ProfileCard from '../../components/ProfileCard/ProfileCard'
+
 
 const Discover = () => {
 	return (
@@ -22,11 +28,60 @@ const Discover = () => {
             </div>
 
             <h2>Categories</h2>
+            <span className="blue">See more</span>
             <section className="scrollable">
                 <CategoryCard text='Sexual Hygiene & Health' img={sexualHygieneImg} />
+                <CategoryCard text='Sexual Hygiene & Health' img={sexualHygieneImg} />
+                <CategoryCard text='Sexual Hygiene & Health' img={sexualHygieneImg} />
+                <CategoryCard text='Sexual Hygiene & Health' img={sexualHygieneImg} />
+                <CategoryCard text='Sexual Hygiene & Health' img={sexualHygieneImg} />
             </section>
+
+            <h2>Recommended for you</h2>
+            <span className="blue">See more</span>
+            <section className="scrollable">
+                <ArticleCard 
+                    text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, recusandae '
+                    heading='What it means to be Non-Binary'
+                    img={nonBinary}
+                    showMore
+                />
+                <ArticleCard 
+                    text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, recusandae '
+                    heading='What it means to be Non-Binary'
+                    img={nonBinary}
+                    showMore
+                />
+            </section>
+            
+            <h2>Learn from</h2>
+            <span className="blue">See more</span>
+            <section className="scrollable">
+                <ProfileCard img={profileImg} name='Rakhee Thakkar'/>
+                <ProfileCard img={profileImg} name='Rakhee Thakkar'/>
+                <ProfileCard img={profileImg} name='Rakhee Thakkar'/>
+                <ProfileCard img={profileImg} name='Rakhee Thakkar'/>
+            </section>
+
+            <h2>Must Watch</h2>
+            <span className="blue">See more</span>
+            <section className="scrollable">
+                <ArticleCard 
+                    text=''
+                    heading='Before yo have your first kiss'
+                    img={nonBinary}
+                />
+                <ArticleCard 
+                    text=''
+                    heading='Before yo have your first kiss'
+                    img={nonBinary}
+                />
+            </section>
+            
+
         </div>
 	)
 }
 
 export default Discover
+ 
