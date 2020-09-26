@@ -1,7 +1,35 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
+import Logo from '../../vectors/logo.svg'
+
+import './style.css'
 
 const Login = () => {
-	return <div>Login</div>
+	return (
+		<div className='login-container'>
+			<div className='login-content'>
+				<img src={Logo} alt='' />
+				<h1 className='login-heading'>
+					Welcome back to <span style={{ color: '#FF5065' }}>Sex.in</span>
+				</h1>
+				<input type='email' name='Email' placeholder='Email Address' />
+				<input type='password' name='Email' placeholder='Password' />
+				<Link>
+					<p className='forgot-password'>Forgot Password?</p>
+				</Link>
+				<Link>
+					<button className='sign-up-button'>LOG IN</button>
+				</Link>
+				<p className='login-p'>
+					Don't have an account ?{' '}
+					<Link to='/signup' className='login-p-login'>
+						Sign up
+					</Link>
+				</p>
+			</div>
+		</div>
+	)
 }
 
 export default Login
