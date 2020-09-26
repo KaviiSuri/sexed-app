@@ -1,0 +1,27 @@
+.artcle-card-container {}
+
+.artcle-card-container h5 {
+  color: #616AD2;
+  font-size: 20px;
+  margin: 0;
+}
+
+.artcle-card-container .summary {
+  color: #484848;
+  font-size: 12px;
+  margin: 0;
+}
+
+.artcle-card-container span {
+  color: #484848;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.article-card-container img {
+  width: 190px;
+}
+
+.artcle-card-container {
+  margin-left: 10px;
+}

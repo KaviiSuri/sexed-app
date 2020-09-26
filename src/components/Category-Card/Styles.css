@@ -1,0 +1,28 @@
+.category-card {
+  display: inline-block;
+  position: relative;
+}
+
+.category-card h4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.category-card img {
+  width: 150px;
+}
+
+.category-card img {
+  /* width: 150px; */
+  width: 160px;
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+.category-card h4 {
+  margin: 0;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+}
