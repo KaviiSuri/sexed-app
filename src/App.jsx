@@ -7,6 +7,7 @@ import Signup from './pages/signup/signup'
 import Details from './pages/Details/Details'
 import './App.css'
 import Discover from './pages/Discover/Discover'
+import DiscoverOpen from './pages/DiscoverOpen/DiscoverOpen'
 
 const App = () => {
 	return (
@@ -20,6 +21,9 @@ const App = () => {
 				</Route>
 				<Route path='/discover'>
 					<Discover />
+				</Route>
+				<Route path='/discoveropen'>
+					<DiscoverOpen />
 				</Route>
 				<Route path='/details'>
 					<Details />

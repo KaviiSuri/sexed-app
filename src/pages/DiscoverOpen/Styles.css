@@ -1,0 +1,77 @@
+.discover-container {
+	width: 95vw;
+	font-family: Cerebri Sans;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+.discover-container .red-line {
+	width: 62px;
+	color: #ff5065;
+	height: 3px;
+	background: #ff5065;
+	display: block;
+}
+
+body {
+	background: linear-gradient(180deg, #eae8ff 0%, #ffeeec 100%);
+	min-height: 100vh;
+}
+
+.discover-container .header-content {
+	width: 100%;
+	color: white;
+	position: relative;
+	display: inline-block;
+}
+
+.discover-container .header-content .text {
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	right: 0;
+	top: 0;
+	padding-left: 10px;
+}
+
+.discover-container .header-content img {
+	width: 95vw;
+}
+
+.discover-container h1 {
+	padding-left: 10px;
+	font-size: 32px;
+	margin-bottom: 0;
+}
+
+.discover-container h2 {
+	padding-left: 10px;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.discover-container .text h3 {
+	margin-bottom: 10px;
+}
+
+.discover-container .header-content .text span {
+	color: #e5e5e5;
+}
+
+.discover-container section.scrollable {
+	display: flex;
+	overflow-x: auto;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+
+.discover-container section.scrollable::-webkit-scrollbar {
+	display: none;
+}
+
+.blue {
+	color: #616ad2;
+	float: right;
+	margin-top: -33px;
+	font-size: 16px;
+}
