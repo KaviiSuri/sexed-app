@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import GettingStarted from './pages/GettingStarted/GettingStarted'
 import Login from './pages/Login/Login'
 import Signup from './pages/signup/signup'
+import Details from './pages/Details/Details'
 import './App.css'
 
 const App = () => {
@@ -15,6 +16,9 @@ const App = () => {
 				</Route>
 				<Route path='/signup'>
 					<Signup />
+				</Route>
+				<Route path='/details'>
+					<Details />
 				</Route>
 				<Route path='/' exact>
 					<GettingStarted />

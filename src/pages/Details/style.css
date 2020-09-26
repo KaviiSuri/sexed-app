@@ -1,0 +1,20 @@
+.details-container {
+	background: linear-gradient(180deg, #e8e8ff 0%, #feedea 100%);
+	width: 100vw;
+	display: flex;
+}
+
+.details-content {
+	width: 95%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.details-heading {
+	font-family: 'Cerebri Sans';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 30px;
+	color: #000000;
+}
