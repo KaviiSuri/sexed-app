@@ -47,15 +47,15 @@ const Signup = () => {
 						</h1>
 						<div className='signup-subheading'>I am currently a</div>
 						<div className='signup-input'>
-							<input type='radio' name='Name' placeholder='Your Name' />
+							<input type='radio' name='Name' />
 							Student
 						</div>
 						<div className='signup-input'>
-							<input type='radio' name='Name' placeholder='Your Name' />
+							<input type='radio' name='Name' />
 							Teacher
 						</div>
 						<div className='signup-input'>
-							<input type='radio' name='Name' placeholder='Your Name' />
+							<input type='radio' name='Name' />
 							Parent
 						</div>
 					</div>
