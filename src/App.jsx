@@ -12,6 +12,7 @@ import TestPage from './pages/TestPage/TestPage'
 import Chatbot from './pages/Chatbot/Chatbot'
 import Forum from './pages/forum/Forum'
 import SpecialistPage from './pages/SpecialistPage/SpecialistPage'
+import SpecialistDetails from './pages/SpecialistDetails/SpecialistDetails'
 
 const App = () => {
 	return (
@@ -33,7 +34,9 @@ const App = () => {
 				<Route path='/test' component={TestPage} />
 				<Route path='/chatbot' component={Chatbot} />
 				<Route path='/forum' component={Forum} />
-				<Route path='/suggested' component={SpecialistPage} />
+				<Route path='/specialist/details' component={SpecialistDetails} />
+				<Route exact path='/specialist' component={SpecialistPage} />
+
 				<Route path='/' exact>
 					<GettingStarted />
 				</Route>
