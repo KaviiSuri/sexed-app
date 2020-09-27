@@ -1,37 +1,42 @@
-import React from "react";
+import React from 'react'
 
-import "./Styles.css";
+import './Styles.css'
 
-import sexualOrientationImg from "../../assets/sexual-orientation.png";
+import sexualOrientationImg from '../../assets/sexual-orientation.png'
+import Quiz from '../../components/quiz/quiz'
 
 const TestPage = () => {
-  return (
-    <div className="test-page-container">
-      <div className="hero">
-        <img src={sexualOrientationImg} alt="Header" />
-        <span className="close"><p>&#10005;</p></span>
-      </div>
+	return (
+		<div className='test-page-container'>
+			<div className='hero'>
+				<img src={sexualOrientationImg} alt='Header' />
+				<span className='close'>
+					<p>&#10005;</p>
+				</span>
+			</div>
 
-      <div className="header">
-        <h1>
-          Sexual Orientation <i className="fas fa-angle-down"></i>
-        </h1>
-        <p className="time">10 - 12mins</p>
-      </div>
+			<div className='header'>
+				<h1>
+					Sexual Orientation <i className='fas fa-angle-down'></i>
+				</h1>
+				<p className='time'>10 - 12mins</p>
+			</div>
 
-      <div className="summary">
-        <h3>Summary</h3>
-        <p>
-          Sexual orientation is a term used to describe your pattern of
-          emotional, romantic or sexual attraction. Sexual orientation may
-          include attraction to the same gender (homosexuality), a gender...
-        </p>
-      </div>
-      <div className="quiz">
-        <h3>Quiz</h3>
-      </div>
-    </div>
-  );
-};
+			<div className='summary'>
+				<h3>Summary</h3>
+				<p>
+					Sexual orientation is a term used to describe your pattern of
+					emotional, romantic or sexual attraction. Sexual orientation may
+					include attraction to the same gender (homosexuality), a gender...
+				</p>
+			</div>
+			<div className='quiz'>
+				<h3>Quiz</h3>
+				<h5>Q. question here</h5>
+				<Quiz first='first' second='second' third='third' correct='first' />
+			</div>
+		</div>
+	)
+}
 
-export default TestPage;
+export default TestPage
