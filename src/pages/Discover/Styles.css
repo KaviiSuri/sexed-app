@@ -1,5 +1,6 @@
 .discover-container {
-  width: 95vw;
+  width: 375px;
+  max-width: 375;
   font-family: Cerebri Sans;
   margin: auto;
   box-sizing: border-box;
@@ -13,16 +14,12 @@
   display: block;
 }
 
-body {
-  background: linear-gradient(180deg, #eae8ff 0%, #ffeeec 100%);
-  min-height: 100vh;
-}
-
 .discover-container .header-content {
   width: 100%;
   color: white;
   position: relative;
   display: inline-block;
+  margin-top: 16px;
 }
 
 .discover-container .header-content .text {
@@ -45,7 +42,8 @@ body {
 
 .discover-container h2 {
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+  margin-top: 32px;
 }
 
 .discover-container .text h3 {
@@ -61,6 +59,7 @@ body {
   overflow-x: auto;
   scrollbar-width: none;
   -ms-overflow-style: none;
+  margin-top: 16px;
 }
 
 .discover-container section.scrollable::-webkit-scrollbar {
@@ -70,6 +69,6 @@ body {
 .blue {
   color: #616ad2;
   float: right;
-  margin-top: -33px;
+  margin-top: -23px;
   font-size: 16px;
 }
