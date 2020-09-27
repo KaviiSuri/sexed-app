@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"
 
 import "./Styles.css";
 
@@ -9,7 +10,9 @@ import accountImg from "../../assets/profile-img.png"
 const SpecialistDetails = () => {
   return (
     <div className="specialist-details">
+      <Link to='/specialist'>  
         <span className='back'>&lt; Back</span>
+      </Link>
       <div className="header">
         <img src={specialistImg} alt="" />
         <h3>Deepak Kumar</h3>
