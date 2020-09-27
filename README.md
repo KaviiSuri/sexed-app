@@ -2,6 +2,9 @@
 
 ![SexEd Logo](logo.png)
 
+**MORE Info.**
+**LESS Weird.**
+
 ### Problem Statement
 Breaking taboos by introducing healthy sexual and reproductive education in 3rd world countries
 
