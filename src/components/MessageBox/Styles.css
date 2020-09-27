@@ -1,0 +1,37 @@
+#message-box {
+  padding: 20px;
+  width: 100%;
+  background: #F7F7F7;
+  border: none;
+  border-radius: 16px;
+  color: black;
+  font-size: 15px;
+  margin: 10px auto;
+  margin-right: 10px;
+}
+
+.send-btn {
+  border: none;
+  border-radius: 50%;
+  display: block;
+  padding: 18px;
+  background: #616AD2;
+  color: white;
+  font-size: 18px;
+}
+
+.message-box-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+}
+
+#message-box::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}

@@ -9,6 +9,7 @@ import './App.css'
 import Discover from './pages/Discover/Discover'
 import DiscoverOpen from './pages/DiscoverOpen/DiscoverOpen'
 import TestPage from './pages/TestPage/TestPage'
+import Chatbot from './pages/Chatbot/Chatbot'
 
 const App = () => {
 	return (
@@ -28,6 +29,7 @@ const App = () => {
 					<Details />
 				</Route>
 				<Route path='/test' component={TestPage} />
+				<Route path='/chatbot' component={Chatbot} />
 				<Route path='/' exact>
 					<GettingStarted />
 				</Route>
