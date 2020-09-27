@@ -7,3 +7,8 @@
   color: #616AD2;
   font-size: 28px;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
