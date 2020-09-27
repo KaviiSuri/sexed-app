@@ -1,0 +1,44 @@
+.specialist-card {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+.specialist-card .header {
+  display: grid;
+  grid-template-areas: "img name name"" img qualification qualification";
+}
+
+.specialist-card .header img {
+  grid-area: img;
+  margin: 0;
+}
+
+.specialist-card .header h3 {
+  grid-area: name;
+  margin: 0;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #5a5958;
+  font-weight: 500;
+}
+
+.specialist-card .header h4 {
+  grid-area: qualification;
+  margin: 0;
+  color: #616AD2;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.specialist-card .summary {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.specialist-card .rating i {
+  margin-right: 4px;
+  color: #616AD2;
+}
