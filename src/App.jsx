@@ -8,6 +8,7 @@ import Details from './pages/Details/Details'
 import './App.css'
 import Discover from './pages/Discover/Discover'
 import DiscoverOpen from './pages/DiscoverOpen/DiscoverOpen'
+import TestPage from './pages/TestPage/TestPage'
 
 const App = () => {
 	return (
@@ -22,12 +23,11 @@ const App = () => {
 				<Route path='/discover'>
 					<Discover />
 				</Route>
-				<Route path='/discoveropen'>
-					<DiscoverOpen />
-				</Route>
+				<Route path='/category/:name' component={DiscoverOpen} />
 				<Route path='/details'>
 					<Details />
 				</Route>
+				<Route path='/test' component={TestPage} />
 				<Route path='/' exact>
 					<GettingStarted />
 				</Route>
