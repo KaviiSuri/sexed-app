@@ -1,0 +1,9 @@
+.user-message-container {
+  background: #c4c4c4;
+  border-radius: 16px 0px 16px 16px;
+  padding: 20px;
+  max-width: 80%;
+  margin-top: 20px;
+  float: right;
+  margin-right: 20px;
+}
