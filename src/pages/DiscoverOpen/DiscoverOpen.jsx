@@ -2,6 +2,8 @@ import React from 'react'
 
 import './Styles.css'
 
+import modules from './modules.json'
+
 import continueWatchingImg from '../../assets/continue-watching.png'
 import sexualHygieneImg from '../../assets/sexual-hygiene.png'
 import nonBinary from '../../assets/non-binary.png'
@@ -11,10 +13,11 @@ import CategoryCard from '../../components/Category-Card/CategoryCard'
 import ArticleCard from '../../components/ArticleCard/ArticleCard'
 import ProfileCard from '../../components/ProfileCard/ProfileCard'
 
-const Discover = () => {
+const Discover = (props) => {
+	console.log(modules)
 	return (
 		<div className='discover-container'>
-			<h1>Discover</h1>
+			<h1>{modules[props.match.params.name] || 'Default'}</h1>
 			<span className='red-line'></span>
 			<div className='header-content'>
 				<img src={continueWatchingImg} alt='continue watching' />

@@ -10,6 +10,7 @@ import profileImg from "../../assets/profile-img.png"
 import CategoryCard from '../../components/Category-Card/CategoryCard'
 import ArticleCard from '../../components/ArticleCard/ArticleCard'
 import ProfileCard from '../../components/ProfileCard/ProfileCard'
+import { Link } from 'react-router-dom'
 
 
 const Discover = () => {
@@ -30,11 +31,26 @@ const Discover = () => {
             <h2>Categories</h2>
             <span className="blue">See more</span>
             <section className="scrollable">
-                <CategoryCard text='Sexual Hygiene & Health' img={sexualHygieneImg} />
-                <CategoryCard text='Sexual Hygiene & Health' img={sexualHygieneImg} />
-                <CategoryCard text='Sexual Hygiene & Health' img={sexualHygieneImg} />
-                <CategoryCard text='Sexual Hygiene & Health' img={sexualHygieneImg} />
-                <CategoryCard text='Sexual Hygiene & Health' img={sexualHygieneImg} />
+                <Link to='/category/sexual_hygeine'>
+                    <CategoryCard text='Sexual Hygiene & Health' img={sexualHygieneImg} />
+                </Link>
+                
+                <Link to='/category/sexual_hygeine'>
+                    <CategoryCard text='Sexual Hygiene & Health' img={sexualHygieneImg} />
+                </Link>
+                
+                <Link to='/category/sexual_hygeine'>
+                    <CategoryCard text='Sexual Hygiene & Health' img={sexualHygieneImg} />
+                </Link>
+                
+                <Link to='/category/sexual_hygeine'>
+                    <CategoryCard text='Sexual Hygiene & Health' img={sexualHygieneImg} />
+                </Link>
+                
+                <Link to='/category/sexual_hygeine'>
+                    <CategoryCard text='Sexual Hygiene & Health' img={sexualHygieneImg} />
+                </Link>
+                
             </section>
 
             <h2>Recommended for you</h2>

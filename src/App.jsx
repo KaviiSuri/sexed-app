@@ -22,9 +22,7 @@ const App = () => {
 				<Route path='/discover'>
 					<Discover />
 				</Route>
-				<Route path='/discoveropen'>
-					<DiscoverOpen />
-				</Route>
+				<Route path='/category/:name' component={DiscoverOpen} />
 				<Route path='/details'>
 					<Details />
 				</Route>
