@@ -1,5 +1,7 @@
 ## Project Idea for Shell Hacks
 
+![SexEd Logo](logo.png)
+
 ### Problem Statement
 Breaking taboos by introducing healthy sexual and reproductive education in 3rd world countries
 
